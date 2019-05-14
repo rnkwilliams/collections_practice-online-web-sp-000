@@ -27,4 +27,5 @@ def kesha_maker(strings)
   strings.gsub([3], "$")
 end
   strings
+ end
 end
