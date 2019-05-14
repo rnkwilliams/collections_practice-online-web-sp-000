@@ -23,5 +23,5 @@ def reverse_array(numbers)
   numbers.sort do |a,b|
     a <=> b
 end
-  .reverse    
+  .reverse
 end
