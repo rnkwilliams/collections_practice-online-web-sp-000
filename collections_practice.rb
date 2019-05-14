@@ -15,8 +15,9 @@ def swap_elements(names)
   return names
 end
 
-def reverse_array(numbers)
-  numbers[0], numbers[1], numbers[2] = numbers[2], numbers[1], numbers[0]
+def reverse_array(numbers, index, destination_index)
+  numbers[index], numbers[destination_index] = numbers[destination_index], numbers[index]
+  return numbers
 end
 
 def kesha_maker(strings)
