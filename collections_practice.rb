@@ -22,3 +22,9 @@ end
 def reverse_array(numbers)
   numbers[0], numbers[1], numbers[2] = numbers[2], numbers[1], numbers[0]
 end
+
+def kesha_maker(strings)
+  strings.gsub([3], "$")
+end
+  strings
+end
