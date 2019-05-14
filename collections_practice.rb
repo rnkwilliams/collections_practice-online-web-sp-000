@@ -14,3 +14,8 @@ end
 def sort_array_char_count(string)
   string.sort_by(&:length)
 end
+
+def swap_elements(names, index, desination_index)
+  names[1], names[2] = names[2], names[1]
+  
+end
