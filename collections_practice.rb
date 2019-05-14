@@ -10,3 +10,9 @@ def sort_array_desc(numbers)
   end
   .reverse
   end
+
+def sort_array_char_count(string)
+  string.sort do |a,b|
+  end
+  .length
+end
