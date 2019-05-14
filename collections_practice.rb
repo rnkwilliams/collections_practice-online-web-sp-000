@@ -18,3 +18,10 @@ end
 def swap_elements(names)
   names[0], names[1], names[2] = names[0], names[2], names[1]
 end
+
+def reverse_array(numbers)
+  numbers.sort do |a,b|
+    a <=> b
+end
+  .reverse    
+end
