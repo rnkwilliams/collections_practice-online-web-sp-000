@@ -12,8 +12,5 @@ def sort_array_desc(numbers)
 end
 
 def sort_array_char_count(string)
-  string.sort do |a,b|
-    a <=> b
-  end
-  .length
+  string.sort_by(&:length)
 end
