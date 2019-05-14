@@ -12,7 +12,7 @@ def sort_array_desc(numbers)
 end
 
 def sort_array_char_count(string)
-  string.sort_by(&:length)
+  string.sort {|a,b| a.length <=> b.length}
 end
 
 def swap_elements(names)
