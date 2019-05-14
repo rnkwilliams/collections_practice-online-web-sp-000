@@ -9,7 +9,7 @@ def sort_array_desc(numbers)
     a <=> b
   end
   .reverse
-  end
+end
 
 def sort_array_char_count(string)
   string.sort do |a,b|
