@@ -1,14 +1,9 @@
 def sort_array_asc(numbers)
-  numbers.sort do |a,b|
-    a <=> b
-  end
+  numbers.sort
 end
 
 def sort_array_desc(numbers)
-  numbers.sort do |a,b|
-    a <=> b
-  end
-  .reverse
+  numbers.sort {|a,b| a <=> b}
 end
 
 def sort_array_char_count(string)
